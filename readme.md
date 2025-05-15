@@ -25,7 +25,8 @@ Lightweight Python class for parsing and processing custom-formatted time series
 ---
 
 ## 🧪 Example Usage
-
->> lr = LifeReader()
->> lr.read(['sample1.lif','sample2.lif'])
->> df = lr.data_df
+```
+lr = LifeReader()
+lr.read(['sample1.lif','sample2.lif'])
+df = lr.data_df
+```
